@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { BiSolidCloudDownload } from "react-icons/bi";
 import { BsFillEyeFill } from "react-icons/bs";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,23 +32,35 @@ export default function Home() {
             Bacharel em Administração
           </p>
           <div className="flex flex-col items-center lg:flex-row">
-            <div className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md">
+            <Link
+              target="_blank"
+              href="diploma-unip-aline.pdf"
+              className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md"
+            >
               <p className="text-[#797979]">PDF</p>
               <BiSolidCloudDownload className="m-auto text-[65px] text-[#07366a]" />
               <p className="text-[18px] font-[900] text-[#075ebd]">BAIXAR</p>
-            </div>
-            <div className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md">
+            </Link>
+            <Link
+              target="_blank"
+              href="diploma-unip-aline.pdf"
+              className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md"
+            >
               <p className="text-[#797979]">XML</p>
               <BiSolidCloudDownload className="m-auto text-[65px] text-[#07366a]" />
               <p className="text-[18px] font-[900] text-[#075ebd]">BAIXAR</p>
-            </div>
-            <div className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md">
+            </Link>
+            <Link
+              target="_blank"
+              href="diploma-unip-aline.pdf"
+              className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md"
+            >
               <p className="text-[#797979]">PDF</p>
               <BsFillEyeFill className="m-auto text-[65px] text-[#07366a]" />
               <p className="text-[18px] font-[900] text-[#075ebd]">
                 VISUALIZAR
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
