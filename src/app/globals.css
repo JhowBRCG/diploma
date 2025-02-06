@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #e6e6e6;
+  background: #eeeeee;
+  position: relative;
+  width: full;
+  min-height: 100%;
 }

@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} antialiased`}>
-        <div className="p-3">{children}</div>
+        <div className="flex min-h-screen w-full flex-col items-center justify-center">
+          <div className="relative p-3">{children}</div>
+        </div>
       </body>
     </html>
   );
