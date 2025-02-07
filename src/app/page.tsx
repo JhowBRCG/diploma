@@ -6,13 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="max-w-[745px] rounded-lg bg-white p-9 shadow-md lg:w-[745px]">
-      <Image
-        src="/images/unip-logo.jpg"
-        alt="unip-logo"
-        width={300}
-        height={300}
-        className="m-auto"
-      />
+      <div className="m-auto h-[88px] max-w-[300px] bg-[url(/images/unip-logo.svg)] bg-cover bg-center bg-no-repeat" />
       <h2 className="mt-5 text-center text-[20px] font-[900] text-[#07366a]">
         DOCUMENTOS DIGITAIS
       </h2>
