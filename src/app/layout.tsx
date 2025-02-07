@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${roboto.className} antialiased`}>
         <div className="flex min-h-screen w-full flex-col items-center justify-center">
           <div className="relative p-3">{children}</div>
