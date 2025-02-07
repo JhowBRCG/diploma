@@ -35,6 +35,8 @@ export default function Home() {
             <Link
               target="_blank"
               href="diploma-unip-aline.pdf"
+              download="diploma-unip-aline.pdf"
+              type="application/pdf"
               className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md"
             >
               <p className="text-[#797979]">PDF</p>
