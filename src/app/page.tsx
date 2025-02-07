@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BiSolidCloudDownload } from "react-icons/bi";
 import { BsFillEyeFill } from "react-icons/bs";
 import Link from "next/link";
