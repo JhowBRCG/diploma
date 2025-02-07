@@ -38,7 +38,9 @@ export default function Home() {
             </Link>
             <Link
               target="_blank"
-              href="diploma-unip-aline.pdf"
+              href="diploma-xml.xml"
+              download="diploma-xml.xml"
+              type="application/xml"
               className="m-[15px] w-full cursor-pointer rounded-md border py-[16px] shadow-md"
             >
               <p className="text-[#797979]">XML</p>
