@@ -65,6 +65,14 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        <div className="w-full pb-3 pt-7 text-center">
+          <Link
+            href="https://www.unip.br/"
+            className="max-w-[64px] rounded-md bg-[#07366a] px-4 py-2 text-[14px] font-bold text-white"
+          >
+            SAIR
+          </Link>
+        </div>
       </div>
     </main>
   );
